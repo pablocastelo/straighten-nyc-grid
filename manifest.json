@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Straighten NYC Grid",
+  "version": "1.0.0",
+  "description": "Rotates Google Maps so Manhattan's street grid runs straight up-and-down.",
+  "permissions": ["storage"],
+  "host_permissions": [
+    "https://www.google.com/maps/*",
+    "https://maps.google.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.google.com/maps/*",
+        "https://maps.google.com/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Straighten NYC Grid"
+  }
+}
