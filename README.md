@@ -2,7 +2,7 @@
 
 A tiny Chrome extension that rotates Google Maps so Manhattan's street grid runs straight up-and-down, the way the Commissioners' Plan of 1811 clearly intended before geography rudely intervened.
 
-| Before (the lie) | After (the truth) |
+| Before (the wrong way) | After (the correct way) |
 | :---: | :---: |
 | ![Manhattan tilted at its inconvenient 28.9°](screenshots/before.png) | ![Manhattan, finally upright](screenshots/after.png) |
 
