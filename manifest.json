@@ -16,6 +16,15 @@
       ],
       "js": ["content.js"],
       "run_at": "document_idle"
+    },
+    {
+      "matches": [
+        "https://www.google.com/maps/*",
+        "https://maps.google.com/*"
+      ],
+      "js": ["page-world.js"],
+      "run_at": "document_start",
+      "world": "MAIN"
     }
   ],
   "action": {
